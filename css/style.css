@@ -1,0 +1,220 @@
+body {
+    font-family: gothamM;
+    margin: 0; padding: 0;
+    background-color: #0D1826;
+}
+
+header {
+  font-family: gothamM;
+  font-size: 2.2em;
+  color: #Fff;
+  padding: .9em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 0;
+  margin: 2em 0 0 0 ;
+}
+
+#bookdetails {
+  padding: 1em 5em 1em 5em;
+  float: left;
+  text-align: center;
+}
+
+#addbook {
+  font-size: 2em;
+}
+
+#addbook {
+  font-size: 3em;
+  color: #fff;
+  text-decoration: none;
+}
+
+#deletebook {
+  color: #FF0808;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+#textdetails {
+  color: #fff;
+  font-size: 2em;
+  margin-top: -.5em;
+  line-height: 1em;
+  margin-left: 3em;
+}
+
+#textdetails h1 {
+  font-size: 1em;
+  margin-top: 1em;
+  line-height: 1em;
+  padding-right: 1em;
+}
+
+#textdetails h2 {
+  font-size: .8em;
+  font-family: gothamL;
+}
+
+#textdetails h3 {
+  font-size: .5em;
+  font-family: gothamL;
+}
+
+h1, h2, h3 {
+  width: 80%;
+}
+
+#bookdetails a:hover {
+  color: #4A90e2;
+}
+
+#search a, #nav a, header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#nav a:hover, #search a:hover, header a:hover {
+  color: #4A90E2;
+}
+
+#nav {
+  color: #fff;
+  font-size: 2.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: .6em;
+  margin-right: .9em;
+}
+
+#container {
+  background-color: #0D1826;
+}
+
+#search {
+  font-size: 5em;
+  font-family: gothamM;
+  color: #fff;
+  float: right;
+  padding: 0em;
+  position: relative;
+  margin-top: -1em;
+  margin-right: 1em;
+}
+
+.item {
+    float: left;
+    position: relative;
+}
+
+input[type=search] {
+  font-family: gothamM;
+  font-size: 3em;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  width: 90%;
+  padding: 0 1em 0 1em;
+  outline: none;
+}
+
+#bookresult p {
+  clear: both;
+  margin-left: 2em;
+}
+
+
+.grid-sizer { width: 20%; }
+.item { width: 20%; }
+
+.image{
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.image:after {
+    clear:both;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+
+.overlay .title {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.3em;
+    position: relative;
+    top: 20%;
+    padding: 0 1em 0 1em;
+}
+
+#bookresult .overlay .title {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.3em;
+    position: relative;
+    top: 20%;
+    margin-left: -4em;
+}
+
+
+
+.item:hover .overlay {
+    display: block;
+}
+
+@media screen and (max-width: 1224px) {
+  .grid-sizer { width: 25%; }
+  .item { width: 25%; }
+  #bookdetails img { width: 75%;}
+  #bookdetails { padding: 1em;}
+  h1, h2, h3 { width: 90%;}
+}
+
+@media screen and (max-width: 720px) {
+  .grid-sizer { width: 33.3%; }
+  .item { width: 33.3%; }
+}
+
+@media screen and (max-width: 600px)  {
+  h1,h2,h3 { width: 100%;}
+  #bookdetails { padding: .5em;}
+}
+
+@media screen and (max-width: 480px) {
+  .grid-sizer { width: 50%; }
+  .item { width: 50%; }
+}
+
+@font-face {
+  font-family: gothamM;
+  src: url(../fonts/Gotham-Medium.otf);
+}
+
+@font-face {
+  font-family: gothamL;
+  src: url(../fonts/Gotham-Light.otf);
+}
+
+
+#deletebook a {
+  color: #FF0808;
+}
