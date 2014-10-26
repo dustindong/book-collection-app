@@ -129,8 +129,8 @@ ul {
 #nav {
   color: #fff;
   font-size: 2.5em;
-  margin-top: .6em;
   margin-right: .9em;
+  margin-top: .6em;
   position: absolute;
   top: 0;
   right: 0;
@@ -143,8 +143,8 @@ ul {
 #search {
   color: #fff;
   float: right;
-  font-size: 5em;
   font-family: gothamM;
+  font-size: 5em;
   margin-right: 1em;
   margin-top: -0.4em;
   padding: 0em;
