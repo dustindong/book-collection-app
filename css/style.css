@@ -76,10 +76,10 @@ ul {
 .overlay .title {
   font-size: 1em;
   line-height: 1.3em;
-  padding: 0 1em 0 1em;
+  margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 20%;
+  top: 30%;
 }
 
 #addbook {
